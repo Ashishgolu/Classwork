@@ -1,0 +1,10 @@
+import java.math.*;
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 double num = Math.random();
+	        System.out.println("Random Number:" + num);
+	}
+
+}

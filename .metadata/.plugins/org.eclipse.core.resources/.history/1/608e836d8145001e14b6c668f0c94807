@@ -1,0 +1,23 @@
+
+public class Palindrome {
+	public static void calculatePalindrome(int n)
+	{
+		int res=0,ld;
+		while(n>0)
+		{
+			ld=n%10;
+			res=res+ld;
+			n=n/10;
+		}
+			if(res==n)
+			{
+				System.out.println("palindrome");
+			}
+			else
+			{
+				System.out.println("not palindrome");
+			}
+			
+	}
+
+}

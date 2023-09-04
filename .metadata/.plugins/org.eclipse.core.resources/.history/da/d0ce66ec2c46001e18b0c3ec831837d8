@@ -1,0 +1,8 @@
+
+public class Result {
+	public static void raisedPower(int n)
+	{
+	int res =	n*2*2;
+	System.out.println(res);
+	}
+}

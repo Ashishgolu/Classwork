@@ -1,0 +1,12 @@
+
+public class Palindrome {
+	public static void calculatePalindrome(int n)
+	{
+
+		if(n==n)
+		{
+			System.out.println("true");
+		}
+	}
+
+}
